@@ -116,7 +116,7 @@ function getPlaylists(username, callback) {
 			'Accept': 'application/json'
 		},
 		data:{
-			'limit' : 50
+			'limit' : 5000
 		},
 		success: function(r) {
 			callback(r);
